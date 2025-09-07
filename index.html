@@ -1,0 +1,609 @@
+<!DOCTYPE html>  <html lang="en">    <head>      <meta charset="UTF-8" />      
+<meta name="viewport" content="width=device-width, initial-scale=1" />      
+<title>KVSR Degree College - Women Complaint Form</title>      
+<style>      
+  body {      
+    font-family: 'Segoe UI', Tahoma, sans-serif;      
+    margin: 0;      
+    padding-top: 60px;      
+    background: linear-gradient(rgba(252, 228, 236, 0.6), rgba(227, 242, 253, 0.6)),      
+                url('') no-repeat center center fixed;      
+    background-size: cover;      
+  }      
+  .navbar {      
+    position: fixed;      
+    top: 0;      
+    left: 0;      
+    right: 0;      
+    background: #6a1b9a;      
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);      
+    z-index: 9999;      
+    display: flex;      
+    align-items: center;      
+    padding: 10px 20px;      
+  }      
+  .navbar button {      
+    background: #6a1b9a;      
+    color: white;      
+    padding: 8px 16px;      
+    border: none;      
+    border-radius: 5px;      
+    cursor: pointer;      
+    font-weight: bold;      
+    font-size: 16px;      
+    position: relative;      
+  }      
+  .dropdown-content {      
+    display: none;      
+    position: absolute;      
+    top: 42px;      
+    left: 0;      
+    background-color: white;      
+    min-width: 200px;      
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);      
+    border-radius: 5px;      
+    z-index: 10000;      
+  }      
+  .dropdown-content a {      
+    color: #6a1b9a;      
+    padding: 12px 16px;      
+    text-decoration: none;      
+    display: block;      
+    font-weight: 600;      
+  }      
+  .dropdown-content a:hover {      
+    background-color: #f0e6fb;      
+  }      
+  header {      
+    background: linear-gradient(90deg, #6a1b9a, #283593);      
+    color: white;      
+    padding: 20px;      
+    text-align: center;      
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);      
+    margin-bottom: 20px;      
+  }      
+  header img {      
+    height: 100px;      
+    width: 100px;      
+    border-radius: 50%;      
+    object-fit: cover;      
+    display: block;      
+    margin: 0 auto 10px;      
+    border: 3px solid white;      
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);      
+  }      
+  header h1 {      
+    margin: 0;      
+    font-size: 26px;      
+  }      
+  .form-container {      
+    background: white;      
+    max-width: 500px;      
+    margin: 0 auto 30px;      
+    padding: 25px;      
+    border-radius: 15px;      
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);      
+    animation: fadeIn 1s ease-in-out;      
+    position: relative;      
+  }      
+  .form-container::before {      
+    content: "♀";      
+    position: absolute;      
+    top: -20px;      
+    right: -20px;      
+    background: #f48fb1;      
+    color: white;      
+    font-size: 26px;      
+    padding: 12px;      
+    border-radius: 50%;      
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);      
+  }      
+  h2 {      
+    text-align: center;      
+    color: #6a1b9a;      
+    margin-bottom: 20px;      
+  }      
+  label {      
+    font-weight: bold;      
+    margin-top: 10px;      
+    display: block;      
+    color: #333;      
+  }      
+  input, textarea, select {      
+    width: 100%;      
+    padding: 10px;      
+    margin-top: 5px;      
+    border-radius: 8px;      
+    border: 1px solid #ccc;      
+    font-size: 14px;      
+    transition: all 0.3s ease;      
+  }      
+  input:focus, textarea:focus, select:focus {      
+    border-color: #6a1b9a;      
+    box-shadow: 0 0 8px rgba(106,27,154,0.3);      
+    outline: none;      
+  }      
+  textarea {      
+    height: 80px;      
+    resize: vertical;      
+  }      
+  button {      
+    width: 100%;      
+    padding: 12px;      
+    background: #6a1b9a;      
+    border: none;      
+    color: white;      
+    font-size: 16px;      
+    font-weight: bold;      
+    border-radius: 8px;      
+    cursor: pointer;      
+    margin-top: 15px;      
+    transition: background 0.3s ease;      
+  }      
+  button:hover {      
+    background: #9c27b0;      
+  }      
+  footer {      
+    text-align: center;      
+    padding: 10px;      
+    font-size: 13px;      
+    color: #666;      
+    margin-top: 20px;      
+  }      
+  @keyframes fadeIn {      
+    from { opacity: 0; transform: translateY(20px); }      
+    to { opacity: 1; transform: translateY(0); }      
+  }  </style>      
+</head>      
+<body>    <!-- Floating Call Now Button -->  <a href="tel:+919185558 11671" class="call-now-btn">📞 Call Now</a>  <style>      
+  .call-now-btn {      
+    position: fixed;      
+    bottom: 20px;      
+    right: 20px;      
+    background: #28a745;      
+    color: white;      
+    padding: 15px 20px;      
+    border-radius: 50px;      
+    font-size: 18px;      
+    font-weight: bold;      
+    text-decoration: none;      
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);      
+    z-index: 10000;      
+    transition: background 0.3s ease;      
+  }      
+  .call-now-btn:hover {      
+    background: #218838;      
+  }      
+</style>  <header>  <img src="https://i.ibb.co/4nbjxLXr/IMG-20250811-153035.jpg"     alt="Logo 1"       
+ style="      
+   height: 100px;      
+   width: 100px;      
+   border-radius: 50%;      
+   object-fit: cover;      
+   border: 5px solid gold;      
+   box-shadow: 0 2px 8px rgba(0,0,0,0.2);      
+ " />  <marquee><h1>KVSR Degree College Allagadda</h1></marquee>
+<b>Women Safety Cell Submission Form</b>
+
+</header>    <header>      
+      <img src="https://i.ibb.co/Q72jttzK/61o81imz-Zp-L.png"   alt="Logo 1"       
+     style="      
+       height: 100px;      
+       width: 100px;      
+       border-radius: 50%;      
+       object-fit: cover;      
+       border: 5px solid lightblue;      
+       box-shadow: 0 2px 8px rgba(0,0,0,0.2);      
+     " />      
+<b>Your safety, your voice, our commitment  </b>    </header>  <header>    <div class="logo-container" style="      
+    display: flex;      
+    justify-content: center;      
+    align-items: center;      
+    gap: 20px;      
+    flex-wrap: wrap;      
+  ">  <!-- Logo 1 -->      
+<img src="https://i.ibb.co/35J9vzJ8/IMG-20250813-121058.jpg"       
+     alt="Logo 1"       
+     style="      
+       height: 100px;      
+       width: 100px;      
+       border-radius: 50%;      
+       object-fit: cover;      
+       border: 5px solid lightgreen;      
+       box-shadow: 0 2px 8px rgba(0,0,0,0.2);      
+     " />    <!-- Logo 2 -->    <img src="https://i.ibb.co/qwLG7n9/FB-IMG-1755065961013.jpg  
+alt="Logo 2"  
+style="  
+height: 100px;  
+width: 100px;  
+border-radius: 50%;  
+object-fit: cover;  
+border: 5px solid lightgreen;  
+box-shadow: 0 2px 8px rgba(0,0,0,0.2);  
+" />    </div>  </header>    <div class="form-container">   
+    <! *******Here The formspree link to change mail *****</!>
+  
+
+   <form id="complaintForm" action="https://formsubmit.co/gshaharaj@gmail.com" method="POST">
+
+<input type="hidden" name="_captcha" value="false">    <label>Name:</label>
+<input type="text" name="name" placeholder="Enter your name" required>
+
+<label>Group:</label>
+<input type="text" name="group" placeholder="Enter your group" required>
+
+<label>Mobile Number:</label>
+<input type="tel" name="mobile" placeholder="Enter your mobile number"       
+pattern="[0-9]{10}" maxlength="10" minlength="10" required>
+
+<label>Address:</label>
+
+<textarea name="address" placeholder="Enter your address" required></textarea>    <label>Email:</label>  <input type="email" name="email" placeholder="Enter your email" required>  <label>Complaint Category:</label>
+<select name="category" required>
+
+<option value="">--Select--</option>  
+<option>Harassment</option>  
+<option>Safety Concern</option>  
+<option>Discrimination</option>  
+<option>Other</option>  
+</select>  <label>Complaint Details:</label>
+
+<textarea name="details" placeholder="Describe your complaint" required></textarea>  
+      
+        <!-- ===== ID Proof Capture ===== -->
+<label>ID Proof Photo:</label>
+<video id="cameraStream1" autoplay playsinline style="width:100%; max-height:200px; background:#000;"></video>
+<button type="button" id="captureBtn1">📷 Capture ID Proof</button>
+<canvas id="snapshotCanvas1" style="display:none;"></canvas>
+<img id="previewImage1" style="display:none; width:100%; max-height:200px; margin-top:10px; border:2px solid green; border-radius:8px;" />
+<input type="hidden" name="id_image_url" id="image_url1" required />
+<p id="status1" style="font-weight:bold; margin-top:5px;"></p>
+
+<hr>
+
+<!-- ===== Incident Capture ===== -->
+<label>Incident Photo:</label>
+<video id="cameraStream2" autoplay playsinline style="width:100%; max-height:200px; background:#000;"></video>
+<button type="button" id="captureBtn2">📷 Capture Incident</button>
+<canvas id="snapshotCanvas2" style="display:none;"></canvas>
+<img id="previewImage2" style="display:none; width:100%; max-height:200px; margin-top:10px; border:2px solid #6a1b9a; border-radius:8px;" />
+<input type="hidden" name="incident_image_url" id="image_url2" required />
+<p id="status2" style="font-weight:bold; margin-top:5px;"></p>
+
+<script>
+const apiKey = "4d50f1e2dd527ac00d9d6219c9f67ebe"; // ImgBB API Key
+
+// Start camera (reuse one stream for both video sections)
+async function startCamera() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+    document.getElementById('cameraStream1').srcObject = stream;
+    document.getElementById('cameraStream2').srcObject = stream;
+  } catch (err) {
+    alert("Camera access denied: " + err.message);
+  }
+}
+startCamera();
+
+// Generic capture setup
+function setupCapture(videoId, canvasId, previewId, hiddenInputId, btnId, statusId) {
+  document.getElementById(btnId).addEventListener("click", () => {
+    const video = document.getElementById(videoId);
+    const canvas = document.getElementById(canvasId);
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+    // Show preview
+    const preview = document.getElementById(previewId);
+    preview.src = canvas.toDataURL("image/jpeg");
+    preview.style.display = "block";
+
+    // Show uploading status
+    const status = document.getElementById(statusId);
+    status.style.color = "orange";
+    status.innerText = "⏳ Uploading...";
+
+    // Upload to ImgBB
+    canvas.toBlob(blob => uploadImage(blob, hiddenInputId, statusId), "image/jpeg", 0.9);
+  });
+}
+
+// Upload function
+function uploadImage(blob, hiddenInputId, statusId) {
+  const formData = new FormData();
+  formData.append("image", blob);
+
+  fetch(`https://api.imgbb.com/1/upload?key=${apiKey}`, {
+    method: "POST",
+    body: formData
+  })
+  .then(res => res.json())
+  .then(data => {
+    const status = document.getElementById(statusId);
+    if (data.success) {
+      document.getElementById(hiddenInputId).value = data.data.url;
+      status.style.color = "green";
+      status.innerText = "✅ Uploaded successfully";
+      console.log("✅ Uploaded: " + data.data.url);
+    } else {
+      status.style.color = "red";
+      status.innerText = "❌ Upload failed";
+    }
+  })
+  .catch(err => {
+    const status = document.getElementById(statusId);
+    status.style.color = "red";
+    status.innerText = "❌ Upload error: " + err.message;
+  });
+}
+
+// Setup both capture sections
+setupCapture("cameraStream1", "snapshotCanvas1", "previewImage1", "image_url1", "captureBtn1", "status1");
+setupCapture("cameraStream2", "snapshotCanvas2", "previewImage2", "image_url2", "captureBtn2", "status2");
+
+// Require both photos before form submit
+document.getElementById("complaintForm").addEventListener("submit", function(e) {
+  if (!document.getElementById("image_url1").value || !document.getElementById("image_url2").value) {
+    e.preventDefault();
+    alert("⚠️ Please capture and upload BOTH ID Proof and Incident Photo before submitting.");
+    return false;
+  }
+});
+</script>
+        
+     
+ <button type="submit">Submit</button>
+</form>
+
+<!-- Success message -->    <div id="formMessage" style="display:none; color: green; margin-top: 15px; font-weight: bold;"></div>    </form>      </div      
+  <!-- Menu bar at the top -->      
+<div style="position:fixed;top:0;left:0;right:0;background:#6a1b9a;box-shadow:0 2px 10px rgba(0,0,0,0.3);z-index:9999;display:flex;align-items:center;padding:0;">  <a href="#home" style="color:white;padding:14px 20px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;">Home</a>  <a href="#aboutSection" style="color:white;padding:14px 20px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;">About</a>    <div style="position:relative;display:inline-block;">      
+    <button style="color:white;padding:14px 20px;font-weight:bold;font-size:16px;background:inherit;border:none;cursor:pointer;">Contact ▼</button>  <div style="display:none;position:absolute;background-color:white;min-width:200px;box-shadow:0 8px 16px rgba(0,0,0,0.2);border-radius:5px;z-index:10000;">      
+  <a href="tel:+919396806083" style="color:#6a1b9a;padding:12px 16px;text-decoration:none;display:block;">📞 Bhuma Srinivas Reddy+9185558 11671</a>      
+  <a href="tel:+919876543210" style="color:#6a1b9a;padding:12px 16px;text-decoration:none;display:block;">📞Srinath Reddy+919440491941</a>      
+  <a href="mailto:info@example.com" style="color:#6a1b9a;padding:12px 16px;text-decoration:none;display:block;">✉️ principalkvsrdc@gmail.com</a>      
+</div>    </div>      
+</div>      
+  <section id="home" style="      
+  padding: 60px 20px;      
+  background: linear-gradient(to right, #ffe6f0, #fff0f5);      
+  text-align: center;      
+  font-family: Arial, sans-serif;      
+">      
+  <h1 style="color: #cc3366; font-size: 36px; margin-bottom: 20px;">      
+    Welcome to Women Safety Cell      
+  </h1>      
+  <p style="      
+    max-width: 800px;      
+    margin: auto;      
+    font-size: 18px;      
+    line-height: 1.6;      
+    color: #333;      
+  ">      
+    Our mission is to ensure safety, dignity, and empowerment for every woman.      
+    We are committed to providing a secure environment where voices are heard,      
+    rights are respected, and help is always available. Together, we can create       
+    a safer and more supportive community for all.      
+  </p>      
+</section>  <!-- About section -->
+        <div id="aboutSection" style="margin-top:80px;padding:20px;background:white;border-radius:10px;max-width:800px;margin-left:auto;margin-right:auto;box-shadow:0 4px 10px rgba(0,0,0,0.1);">      
+  
+          
+ 
+        <img src="https://i.ibb.co/Q3Xt4W8Q/61o81imz-Zp-L.png" alt="About" width="150" height="100">
+        <h1>Welcome to Women Safety Cell</h1>
+        <p>Our mission is to ensure safety, dignity, and empowerment for every woman.</p>
+    </div>
+
+    <div class="slide">
+        <img src="https://i.ibb.co/PGLnvCnn/174135812-women-protection-black-glyph-icon-protect-girls-against-violence-female-empowerment-women.png" alt="About" width="200" height="200">
+        <h1>About the Project</h1>
+        <p>This initiative provides a secure platform for complaints, emergency contacts, and awareness resources.</p>
+    </div>
+
+    <div class="slide">
+        <img src="https://i.ibb.co/23089R8q/360-F-1333038794-O7-Vw8-Y02-Kr-QRLQUr-Zso-Xbqup-TYig-Ej0-N.jpg" alt="Mission">
+        <h1>Our Mission</h1>
+        <p>We aim to ensure that every woman's voice is heard, rights are respected, and help is always available.</p>
+    </div>
+
+    <div class="slide">
+        <img src="https://i.ibb.co/0PqLDT9/Screenshot-2025-08-18-23-50-30-14-680d03679600f7af0b4c700c6b270fe7.jpg " alt="Features" width="300" height="200">
+        <h1>Features</h1>
+        <p>File complaints, view safety tips, access emergency contacts, and connect with support services.</p>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-btns">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+    </div>
+</section>
+
+<!-- CSS -->
+<style>
+.home-section {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+.home-section .slide {
+    display: none;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.home-section .slide.active {
+    display: block;
+}
+.home-section .slide img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.home-section .nav-btns {
+    margin-top: 20px;
+}
+.home-section .nav-btns button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-section .nav-btns button:hover {
+    background: #0056b3;
+}
+</style>
+
+<!-- JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.home-section .slide');
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if(i === index) slide.classList.add('active');
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    prevBtn.addEventListener("click", prevSlide);
+    nextBtn.addEventListener("click", nextSlide);
+
+    showSlide(currentSlide);
+    setInterval(nextSlide, 5000);
+});
+</script>
+          
+          
+    
+         <script>      
+  // Toggle contact dropdown      
+  document.querySelectorAll("div[style*='position:relative'] > button").forEach(btn => {      
+    btn.addEventListener("click", function(){      
+      let menu = this.nextElementSibling;      
+      menu.style.display = (menu.style.display === "block") ? "none" : "block";      
+    });      
+  });      
+</script>    <script>      
+let cameraStream;      
+const apiKey = "4d50f1e2dd527ac00d9d6219c9f67ebe"; // ImgBB key    // Start camera  
+async function startCamera() {  
+try {  
+cameraStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });  
+document.getElementById('cameraStream').srcObject = cameraStream;  
+} catch (err) {  
+alert("Camera access denied: " + err.message);  
+}  
+}  
+startCamera();  // Capture photo
+document.getElementById('captureBtn').addEventListener('click', () => {
+const video = document.getElementById('cameraStream');
+const canvas = document.getElementById('snapshotCanvas');
+const ctx = canvas.getContext('2d');
+
+canvas.width = video.videoWidth;
+canvas.height = video.videoHeight;
+ctx.drawImage(video, 0, 0);
+
+// Convert to Blob for ImgBB
+canvas.toBlob(uploadImage, 'image/jpeg');
+
+});
+
+function uploadImage(blob) {
+const formData = new FormData();
+formData.append('image', blob);
+
+fetch(https://api.imgbb.com/1/upload?key=${apiKey}, {
+method: 'POST',
+body: formData
+})
+.then(res => res.json())
+.then(data => {
+if (data.success) {
+document.getElementById('image_url').value = data.data.url;
+alert("Photo uploaded successfully!");
+} else {
+alert("Image upload failed");
+}
+})
+.catch(err => alert("Upload error: " + err.message));
+
+}
+
+// Handle form submit with custom message
+document.getElementById('complaintForm').addEventListener('submit', async function(e) {
+e.preventDefault(); // Prevent default form submit
+
+// Check if photo is uploaded
+if (!document.getElementById('image_url').value) {
+alert("Please capture and upload a photo before submitting.");
+return;
+}
+
+const form = e.target;
+const formData = new FormData(form);
+
+try {
+const response = await fetch(form.action, {
+method: form.method,
+body: formData,
+headers: { 'Accept': 'application/json' }
+});
+
+const messageDiv = document.getElementById('formMessage');      
+
+if (response.ok) {      
+    messageDiv.innerText = "✅ Your submission has been successfully sent to your email!";      
+    messageDiv.style.display = "block";      
+    form.reset();      
+    document.getElementById('snapshotCanvas').style.display = "none";      
+} else {      
+    messageDiv.innerText = "❌ Submission failed. Please try again.";      
+    messageDiv.style.display = "block";      
+}
+
+} catch (err) {
+alert("Error: " + err.message);
+}
+
+});
+</script>   <footer style="      
+background-color: #f8f9fa;      
+color: #333;      
+text-align: center;      
+padding: 15px;      
+font-size: 14px;      
+border-top: 2px solid #ddd;      
+">
+
+  <p style="margin: 5px 0;">      
+    © 2025 Women Safety Cell | Empowering women, protecting rights.      
+  </p>      
+  <p style="margin: 5px 0;">      
+    Contact: +919440491941| Email:principalkvsrdc@gmail.com womensafety.      
+  </p>      
+</footer>  </body>      
+</html>
